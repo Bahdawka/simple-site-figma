@@ -186,7 +186,7 @@ a {
   margin-inline: auto;
 }
 
-.experience__conteiner {
+.experience__container {
   width: min(100% - var(--gap-xl), var(--container-primary));
   margin-inline: auto;
   display: flex;
@@ -216,7 +216,7 @@ a {
 
 .video {
   background-color: var(--color-gray-light);
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .video__iframe {
@@ -224,4 +224,23 @@ a {
   height: 600px;
   object-fit: cover;
   border: 0;
+}
+
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*footer section*/
+
+.footer__title {
+  font-size: 1.3125rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer__description {
+  font-size: 0.8125rem;
 }
