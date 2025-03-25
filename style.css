@@ -70,6 +70,21 @@ a {
   margin-inline: auto;
 }
 
+.visually-hiden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  visibility: hidden;
+}
+
 .header {
   background-color: var(--color-gray-light);
   padding-top: 79px;
@@ -147,7 +162,7 @@ a {
 .process {
   background-color: var(--color-gray-light);
   padding-top: 100px;
-  padding-bottom: 757px;
+  padding-bottom: 57px;
   text-align: center;
 }
 
@@ -162,6 +177,8 @@ a {
 .experience {
   background-color: var(--color-primary);
   color: var(--color-white);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .experience__title {
@@ -195,4 +212,16 @@ a {
 
 .experience-item__image {
   order: -1;
+}
+
+.video {
+  background-color: var(--color-gray-light);
+  margin-bottom: 100px;
+}
+
+.video__iframe {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border: 0;
 }
