@@ -28,7 +28,6 @@
   margin: 0;
   padding: 0;
   list-style: none;
-
 }
 
 html {
@@ -77,7 +76,6 @@ a {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -87,26 +85,26 @@ a {
 
 .header {
   background-color: var(--color-gray-light);
-  padding-top: 79px;
+  padding-top: 65px;
   padding-bottom: 141px;
 }
 
 .navbar {
-  margin-bottom: 162px;
+  margin-bottom: 123px;
 }
 
 .navbar__list {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--gap);
+  column-gap: 27px;
+  margin-left: -0.75em;
 }
-
-/*.navbar__item {}*/
 
 .navbar__link {
   display: block;
-  padding: 0.5em 0;
+  padding: 0.5em 0.75em;
   text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
 }
 
 .navbar__link-active {
@@ -122,12 +120,14 @@ a {
 }
 
 .hero__title {
-  margin-bottom: 60px;
+  margin-top: 0px;
+  margin-bottom: 34px;
+  ;
 }
 
 .hero__description {
   color: var(--color-secondary);
-  margin-bottom: 65px;
+  margin-bottom: 57px;
 }
 
 .hero__button {
@@ -140,19 +140,20 @@ a {
   text-transform: uppercase;
   color: var(--color-white);
   padding: 0.5em;
+  letter-spacing: var(--letter-spacing);
 }
 
 /*main section*/
 
 .about {
   background-color: var(--color-white);
-  padding-top: 112px;
-  padding-bottom: 100px;
+  padding-top: 102px;
+  padding-bottom: 91px;
   text-align: center;
 }
 
 .about__title {
-  margin-bottom: 50px;
+  margin-bottom: 29px;
 }
 
 .about__description {
@@ -162,12 +163,13 @@ a {
 .process {
   background-color: var(--color-gray-light);
   padding-top: 100px;
-  padding-bottom: 57px;
+  padding-bottom: 49px;
   text-align: center;
 }
 
 .process__title {
-  margin-bottom: 50px;
+  margin-bottom: 29px;
+  margin-top: -11px;
 }
 
 .process__description {
@@ -178,7 +180,7 @@ a {
   background-color: var(--color-primary);
   color: var(--color-white);
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 93px;
 }
 
 .experience__title {
@@ -200,15 +202,11 @@ a {
   gap: var(--gap);
 }
 
-.experience-item__description {}
-
 .experience-item__number {
   font-size: 1.3125rem;
   font-weight: 500;
   margin-top: -5px;
 }
-
-.experience-item__label {}
 
 .experience-item__image {
   order: -1;
@@ -216,13 +214,13 @@ a {
 
 .video {
   background-color: var(--color-gray-light);
-  padding-bottom: 100px;
+  padding-bottom: 91px;
 }
 
 .video__iframe {
   width: 100%;
-  height: 600px;
   object-fit: cover;
+  height: 600px;
   border: 0;
 }
 
@@ -238,9 +236,11 @@ a {
 .footer__title {
   font-size: 1.3125rem;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: -12px;
 }
 
 .footer__description {
   font-size: 0.8125rem;
+  margin-bottom: -6px;
 }
