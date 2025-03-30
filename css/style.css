@@ -106,7 +106,7 @@ a {
   letter-spacing: var(--letter-spacing);
 }
 
-.navbar__link-active {
+.navbar__link--active {
   color: var(--color-primary);
   font-weight: 500;
 }
