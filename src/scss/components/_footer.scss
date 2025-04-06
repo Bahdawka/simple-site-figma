@@ -1,0 +1,21 @@
+@use '../presets' as *;
+@use '../mixins' as *;
+
+.footer {
+  background-color: $color-primary;
+  color: $color-white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &__title {
+    font-size: 1.3125rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: -12px;
+  }
+
+  &__description {
+    font-size: 0.8125rem;
+    margin-bottom: -6px;
+  }
+}

@@ -1,0 +1,64 @@
+@use '../presets' as *;
+@use '../mixins' as *;
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: $container-secondary;
+
+  @media (max-width:576px) {
+    text-align: center;
+    align-items: center;
+  }
+
+  &__title {
+    margin-top: 0px;
+    margin-bottom: 34px;
+
+    @media (max-width:576px) {
+      font-size: 44px;
+    }
+
+    @media (max-width:375px) {
+      font-size: 38px;
+    }
+  }
+
+  &__description {
+    color: $color-secondary;
+    margin-bottom: 57px;
+
+    @media (max-width:576px) {
+      font-size: 14px;
+    }
+
+    @media (max-width:375px) {
+      font-size: 12px;
+      margin-bottom: 35px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 225px;
+    min-height: 65px;
+    background-color: $color-primary;
+    text-transform: uppercase;
+    color: $color-white;
+    padding: 0.5em;
+    letter-spacing: $letter-spacing;
+
+    @media (max-width:992px) {
+      min-width: 190px;
+      min-height: 55px;
+    }
+
+    @media (max-width:375px) {
+      min-width: 150px;
+      min-height: 45px;
+    }
+  }
+}
