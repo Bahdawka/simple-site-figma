@@ -1,0 +1,17 @@
+@use '../presets' as *;
+@use '../mixins' as *;
+
+.about {
+  background-color: $color-white;
+  padding-top: 102px;
+  padding-bottom: 91px;
+  text-align: center;
+}
+
+.about__title {
+  margin-bottom: 29px;
+}
+
+.about__description {
+  color: $color-secondary;
+}

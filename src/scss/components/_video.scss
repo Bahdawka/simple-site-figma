@@ -1,0 +1,14 @@
+@use '../presets' as *;
+@use '../mixins' as *;
+
+.video {
+  background-color: $color-gray-light;
+  padding-bottom: 91px;
+}
+
+.video__iframe {
+  width: 100%;
+  object-fit: cover;
+  height: 600px;
+  border: 0;
+}
