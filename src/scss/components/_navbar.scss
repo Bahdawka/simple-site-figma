@@ -3,23 +3,23 @@
 
 .navbar {
   margin-bottom: 123px;
-}
 
-.navbar__list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 27px;
-  margin-left: -0.75em;
-}
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 27px;
+    margin-left: -0.75em;
+  }
 
-.navbar__link {
-  display: block;
-  padding: 0.5em 0.75em;
-  text-transform: uppercase;
-  letter-spacing: $letter-spacing;
-}
+  &__link {
+    display: block;
+    padding: 0.5em 0.75em;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing;
 
-.navbar__link--active {
-  color: $color-primary;
-  font-weight: 500;
+    &--active {
+      color: $color-primary;
+      font-weight: 500;
+    }
+  }
 }

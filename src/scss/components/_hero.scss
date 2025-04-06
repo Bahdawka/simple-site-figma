@@ -6,28 +6,27 @@
   align-items: flex-start;
   flex-direction: column;
   max-width: $container-secondary;
-}
 
-.hero__title {
-  margin-top: 0px;
-  margin-bottom: 34px;
-  ;
-}
+  &__title {
+    margin-top: 0px;
+    margin-bottom: 34px;
+  }
 
-.hero__description {
-  color: $color-secondary;
-  margin-bottom: 57px;
-}
+  &__description {
+    color: $color-secondary;
+    margin-bottom: 57px;
+  }
 
-.hero__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 225px;
-  min-height: 65px;
-  background-color: $color-primary;
-  text-transform: uppercase;
-  color: $color-white;
-  padding: 0.5em;
-  letter-spacing: $letter-spacing;
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 225px;
+    min-height: 65px;
+    background-color: $color-primary;
+    text-transform: uppercase;
+    color: $color-white;
+    padding: 0.5em;
+    letter-spacing: $letter-spacing;
+  }
 }

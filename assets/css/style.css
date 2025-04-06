@@ -222,7 +222,6 @@ template{
 .navbar{
   margin-bottom:123px;
 }
-
 .navbar__list{
   display:-webkit-box;
   display:-ms-flexbox;
@@ -234,14 +233,12 @@ template{
           column-gap:27px;
   margin-left:-0.75em;
 }
-
 .navbar__link{
   display:block;
   padding:0.5em 0.75em;
   text-transform:uppercase;
   letter-spacing:0.1em;
 }
-
 .navbar__link--active{
   color:#34547a;
   font-weight:500;
@@ -260,17 +257,14 @@ template{
           flex-direction:column;
   max-width:540px;
 }
-
 .hero__title{
   margin-top:0px;
   margin-bottom:34px;
 }
-
 .hero__description{
   color:#727272;
   margin-bottom:57px;
 }
-
 .hero__button{
   display:-webkit-box;
   display:-ms-flexbox;
@@ -296,11 +290,9 @@ template{
   padding-bottom:91px;
   text-align:center;
 }
-
 .about__title{
   margin-bottom:29px;
 }
-
 .about__description{
   color:#727272;
 }
@@ -311,14 +303,14 @@ template{
   padding-bottom:49px;
   text-align:center;
 }
-
 .process__title{
   margin-bottom:29px;
-  margin-top:-11px;
 }
-
 .process__description{
   color:#727272;
+}
+.process__title{
+  margin-top:-11px;
 }
 
 .experience{
@@ -327,12 +319,10 @@ template{
   padding-top:100px;
   padding-bottom:93px;
 }
-
 .experience__title{
   width:min(100% - 40px, 1110px);
   margin-inline:auto;
 }
-
 .experience__container{
   width:min(100% - 40px, 1110px);
   margin-inline:auto;
@@ -353,13 +343,11 @@ template{
   display:flex;
   gap:20px;
 }
-
 .experience-item__number{
   font-size:1.3125rem;
   font-weight:500;
   margin-top:-5px;
 }
-
 .experience-item__image{
   -webkit-box-ordinal-group:0;
       -ms-flex-order:-1;
@@ -370,7 +358,6 @@ template{
   background-color:#edeef0;
   padding-bottom:91px;
 }
-
 .video__iframe{
   width:100%;
   -o-object-fit:cover;
@@ -385,14 +372,12 @@ template{
   padding-top:50px;
   padding-bottom:50px;
 }
-
 .footer__title{
   font-size:1.3125rem;
   font-weight:500;
   margin-bottom:5px;
   margin-top:-12px;
 }
-
 .footer__description{
   font-size:0.8125rem;
   margin-bottom:-6px;
@@ -404,9 +389,44 @@ template{
         -ms-flex-pack:space-evenly;
             justify-content:space-evenly;
   }
+  .experience__container{
+    -webkit-box-pack:space-evenly;
+        -ms-flex-pack:space-evenly;
+            justify-content:space-evenly;
+  }
 }
 
 @media (max-width: 992px){
+  .header{
+    padding-bottom:80px;
+  }
+  .navbar{
+    margin-bottom:60px;
+  }
+  .navbar__list{
+    -webkit-column-gap:20px;
+       -moz-column-gap:20px;
+            column-gap:20px;
+  }
+  .hero__button{
+    min-width:190px;
+    min-height:55px;
+  }
+  .about{
+    padding-top:60px;
+    padding-bottom:70px;
+  }
+  .process{
+    padding-top:60px;
+    padding-bottom:40px;
+  }
+  .experience{
+    padding-top:50px;
+    padding-bottom:30px;
+  }
+  .video__iframe{
+    height:500px;
+  }
   .header{
     padding-bottom:80px;
   }
@@ -481,9 +501,93 @@ template{
   .video__iframe{
     height:400px;
   }
+  .navbar{
+    margin-bottom:40px;
+  }
+  .navbar__list{
+    -webkit-column-gap:0px;
+       -moz-column-gap:0px;
+            column-gap:0px;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+  }
+  .hero{
+    text-align:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+  }
+  .hero__title{
+    font-size:44px;
+  }
+  .hero__description{
+    font-size:14px;
+  }
+  .about__title{
+    font-size:32px;
+  }
+  .about__description{
+    font-size:14px;
+  }
+  .process__title{
+    font-size:32px;
+  }
+  .process__description{
+    font-size:14px;
+  }
+  .experience__container{
+    width:100%;
+  }
+  .video__iframe{
+    height:400px;
+  }
 }
 
 @media (max-width: 375px){
+  .header{
+    padding-bottom:60px;
+    padding-top:15px;
+  }
+  .navbar{
+    margin-bottom:20px;
+  }
+  .hero__title{
+    font-size:38px;
+  }
+  .hero__description{
+    font-size:12px;
+    margin-bottom:35px;
+  }
+  .hero__button{
+    min-width:150px;
+    min-height:45px;
+  }
+  .about__title{
+    font-size:30px;
+  }
+  .about__description{
+    font-size:12px;
+  }
+  .process__title{
+    font-size:30px;
+  }
+  .process__description{
+    font-size:12px;
+  }
+  .experience{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .experience__container{
+    width:100%;
+  }
+  .video{
+    padding-bottom:40px;
+  }
+  .video__iframe{
+    height:300px;
+  }
   .header{
     padding-bottom:60px;
     padding-top:15px;

@@ -1,0 +1,13 @@
+@use '../presets' as *;
+
+@mixin section() {
+  text-align: center;
+
+  &__title {
+    margin-bottom: 29px;
+  }
+
+  &__description {
+    color: $color-secondary;
+  }
+}

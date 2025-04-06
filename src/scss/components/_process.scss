@@ -5,14 +5,9 @@
   background-color: $color-gray-light;
   padding-top: 100px;
   padding-bottom: 49px;
-  text-align: center;
-}
+  @include section();
 
-.process__title {
-  margin-bottom: 29px;
-  margin-top: -11px;
-}
-
-.process__description {
-  color: $color-secondary;
+  &__title {
+    margin-top: -11px;
+  }
 }

@@ -4,11 +4,11 @@
 .video {
   background-color: $color-gray-light;
   padding-bottom: 91px;
-}
 
-.video__iframe {
-  width: 100%;
-  object-fit: cover;
-  height: 600px;
-  border: 0;
+  &__iframe {
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+    border: 0;
+  }
 }
