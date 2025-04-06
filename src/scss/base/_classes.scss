@@ -1,7 +1,7 @@
 @use '../presets' as *;
 @use '../mixins' as *;
 
-/* first-screen section*/
+
 .container {
   width: min(100% - $gap-xl, $container-primary);
   margin-inline: auto;

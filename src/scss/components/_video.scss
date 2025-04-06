@@ -5,10 +5,26 @@
   background-color: $color-gray-light;
   padding-bottom: 91px;
 
+  @media (max-width:375px) {
+    padding-bottom: 40px;
+  }
+
   &__iframe {
     width: 100%;
     object-fit: cover;
     height: 600px;
     border: 0;
+
+    @media (max-width:992px) {
+      height: 500px;
+    }
+
+    @media (max-width:576px) {
+      height: 400px;
+    }
+
+    @media (max-width:375px) {
+      height: 300px;
+    }
   }
 }

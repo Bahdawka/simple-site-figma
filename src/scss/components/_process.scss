@@ -7,6 +7,11 @@
   padding-bottom: 49px;
   @include section();
 
+  @media (max-width:992px) {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
   &__title {
     margin-top: -11px;
   }

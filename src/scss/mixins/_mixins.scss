@@ -5,9 +5,25 @@
 
   &__title {
     margin-bottom: 29px;
+
+    @media (max-width:576px) {
+      font-size: 32px;
+    }
+
+    @media (max-width:375px) {
+      font-size: 30px;
+    }
   }
 
   &__description {
     color: $color-secondary;
+
+    @media (max-width:576px) {
+      font-size: 14px;
+    }
+
+    @media (max-width:375px) {
+      font-size: 12px;
+    }
   }
 }
